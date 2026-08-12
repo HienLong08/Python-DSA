@@ -14,3 +14,8 @@ def BinarySearch(Ds, Target):
             Right = Mid - 1
 
     return -1
+
+Ds = [1, 3, 5, 7, 9, 11, 13]
+
+print(BinarySearch(Ds, 7))
+print(BinarySearch(Ds, 8))
