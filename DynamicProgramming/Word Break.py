@@ -1,13 +1,13 @@
 with open("Word Break.INP", "r") as fin:
     data = fin.readlines()
 
-    s = data[0].strip()
+    s = data[0]
     N = int(data[1])
 
     Ds = []
 
     for i in range(N):
-        Ds.append(data[i + 2].strip())
+        Ds.append(data[i + 2])
 
 
 DP = [False] * (len(s) + 1)
